@@ -18,6 +18,7 @@ namespace PalindromeTests
         [InlineData("a", true)]
         [InlineData("aa", true)]
         [InlineData("ana", true)]
+        [InlineData("Ana", true)]
         [InlineData("cojoc", true)]
         [InlineData("121", true)]
         [InlineData("1256521", true)]

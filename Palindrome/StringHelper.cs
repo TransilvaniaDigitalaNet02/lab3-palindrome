@@ -11,7 +11,8 @@
 
             for (int indexStart = 0, indexEnd = text.Length - 1; indexStart < indexEnd; indexStart++, indexEnd--)
             {
-                if (text[indexStart] != text[indexEnd])
+                
+                if (char.ToLowerInvariant(text[indexStart]) != char.ToLowerInvariant(text[indexEnd]))
                 {
                     return false;
                 }
